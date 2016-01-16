@@ -83,7 +83,7 @@ bindsym Mod4+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym Mod4+s layout stacking
 bindsym Mod4+w layout tabbed
-bindsym Mod4+e layout toggle split
+bindsym Mod4+q layout toggle split
 
 # toggle tiling / floating
 bindsym Mod4+Shift+space floating toggle
@@ -205,4 +205,13 @@ bindsym Mod4+o	gaps inner all plus 10
 
 bindsym Mod4+i	gaps inner all minus 10
 #bindsym Mod4+i	gaps outer all minus 5
+
+
+bindsym Mod4+e	exec nautilus
+bindsym Mod1+Tab focus right
+bindsym Mod1+Shift+Tab focus up
+bindsym Mod4+Tab workspace next
+bindsym Mod4+Shift+Tab workspace prev
+bindsym Ctrl+Mod4+Left workspace prev
+bindsym Ctrl+Mod4+Right workspace next
 
