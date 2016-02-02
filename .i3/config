@@ -180,6 +180,18 @@ bar {
         }
 }
 
+#########################################################
+# colours 
+#########################################################
+# class                 border  backgr. text    indicator
+client.focused          #969aad #969aad #ffffff #969aad
+client.focused_inactive #616c7d #616c7d #ffffff #616c7d
+client.unfocused        #616c7d #616c7d #888888 #616c7d
+client.urgent           #9e96ad #9e96ad #ffffff #9e96ad
+client.placeholder      #000000 #0c0c0c #ffffff #000000
+
+client.background       #81889b
+
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
 # keysym-based config which used their favorite modifier (alt or windows)
@@ -190,22 +202,21 @@ bar {
 # Please remove the following exec line:
 #######################################################################
 #exec i3-config-wizard
-exec feh --bg-scale /usr/share/backgrounds/Greenish_by_EstebanMitnick.jpg
+exec feh --bg-scale /usr/share/backgrounds/gnome/Whispy_Tails.jpg
 
-for_window [class="^.*"] border pixel 5
+for_window [class="^.*"] border pixel 10
 
-smart_gaps on
-smart_borders on
+#smart_gaps on
+#smart_borders on
 
-gaps inner 10
-gaps outer 5
+gaps inner 20
+gaps outer 10
 
 bindsym Mod4+o	gaps inner all plus 10
 #bindsym Mod4+o	gaps outer all plus 5
 
 bindsym Mod4+i	gaps inner all minus 10
 #bindsym Mod4+i	gaps outer all minus 5
-
 
 bindsym Mod4+e	exec nautilus
 bindsym Mod1+Tab focus right
