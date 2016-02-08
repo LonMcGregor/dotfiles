@@ -24,3 +24,4 @@ echo -e "${Red}██${Purple}╔══${Red}██${Purple}║${Red}██${Pur
 echo -e "${Red}██${Purple}║..${Red}██${Purple}║${Red}██${Purple}║${Red}▄█${Purple}╗....${Red}███████${Purple}╗${Red}██${Purple}║.╚═╝.${Red}██${Purple}║${Red}██████${Purple}╔╝${Red}███████${Purple}║╚${Red}██████${Purple}╔╝";
 echo -e "${Purple}╚═╝..╚═╝╚═╝╚═╝....╚══════╝╚═╝.....╚═╝╚═════╝.╚══════╝.╚═════╝.";
 echo -e "${NC}";
+alias bye="exit"
