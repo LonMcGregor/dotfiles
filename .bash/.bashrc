@@ -16,12 +16,5 @@ Yellow='\e[1;33m'
 LightGray='\e[0;37m'
 White='\e[1;37m'
 NC='\e[0m'
-echo "";
-echo -e "${Red}██${Purple}╗..${Red}██${Purple}╗${Red}██${Purple}╗.......${Red}██${Purple}╗.....${Red}███${Purple}╗...${Red}███${Purple}╗${Red}██████${Purple}╗.${Red}███████${Purple}╗.${Red}██████${Purple}╗.";
-echo -e "${Red}██${Purple}║..${Red}██${Purple}║${Red}██${Purple}║.......${Red}██${Purple}║.....${Red}████${Purple}╗.${Red}████${Purple}║╚════${Red}██${Purple}╗${Red}██${Purple}╔════╝${Red}██${Purple}╔════╝.";
-echo -e "${Red}███████${Purple}║${Red}██${Purple}║.......${Red}██${Purple}║.....${Red}██${Purple}╔${Red}████${Purple}╔${Red}██${Purple}║.${Red}█████${Purple}╔╝${Red}███████${Purple}╗${Red}███████${Purple}╗.";
-echo -e "${Red}██${Purple}╔══${Red}██${Purple}║${Red}██${Purple}║.......${Red}██${Purple}║.....${Red}██${Purple}║╚${Red}██${Purple}╔╝${Red}██${Purple}║.╚═══${Red}██${Purple}╗╚════${Red}██${Purple}║${Red}██${Purple}╔═══${Red}██${Purple}╗";
-echo -e "${Red}██${Purple}║..${Red}██${Purple}║${Red}██${Purple}║${Red}▄█${Purple}╗....${Red}███████${Purple}╗${Red}██${Purple}║.╚═╝.${Red}██${Purple}║${Red}██████${Purple}╔╝${Red}███████${Purple}║╚${Red}██████${Purple}╔╝";
-echo -e "${Purple}╚═╝..╚═╝╚═╝╚═╝....╚══════╝╚═╝.....╚═╝╚═════╝.╚══════╝.╚═════╝.";
-echo -e "${NC}";
 alias bye="exit"
+alias cls="reset"
