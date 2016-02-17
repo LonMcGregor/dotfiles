@@ -164,11 +164,11 @@ bar {
 # colours 
 #########################################################
 # class                 border  backgr. text    indicator
-client.focused          #d64937 #d64937 #ffffff #d64937
-client.focused_inactive #2d2d2d #2d2d2d #ffffff #2d2d2d
-client.unfocused        #2d2d2d #2d2d2d #888888 #2d2d2d
-client.urgent           #d63774 #d63774 #ffffff #d63774
-client.placeholder      #000000 #0c0c0c #ffffff #000000
+client.focused          #d64937 #d64937 #ffffff #e2c963
+client.focused_inactive #2d2d2d #2d2d2d #ffffff #444444
+client.unfocused        #2d2d2d #2d2d2d #888888 #444444
+client.urgent           #d63774 #d63774 #ffffff #d637c3
+client.placeholder      #000000 #0c0c0c #ffffff #111111
 
 client.background       #81889b
 
