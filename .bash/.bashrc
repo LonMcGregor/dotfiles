@@ -20,6 +20,6 @@ alias bye="exit"
 alias cls="reset"
 alias whatcows="dir ~/mycows/share/cows"
 function giveacow(){ fortune | ~/mycows/bin/cowsay -f ~/mycows/share/cows/$1.cow; }
-function giveacowtouser(){ fortune | ~/mycows/bin/cowsay -f ~/mycows/share/cows/$1.cow | write $2 $3; }
+function giveacowtouser(){ fortune | ~/mycows/bin/cowsay -f ~/mycows/share/cows/$1.cow | write $2 pts/$3; }
 function gimme(){ ssh $1;}
 function whereis(){ who | grep $1; }
