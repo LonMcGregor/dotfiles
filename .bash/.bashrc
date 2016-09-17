@@ -18,3 +18,7 @@ White='\e[1;37m'
 NC='\e[0m'
 alias bye="exit"
 alias cls="reset"
+alias g="git"
+WWW_HOME="http://duckduckgo.com"
+export WWW_HOME
+eval "$(thefuck --alias fuck)"
