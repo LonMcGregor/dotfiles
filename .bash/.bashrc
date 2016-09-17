@@ -22,3 +22,9 @@ alias g="git"
 WWW_HOME="http://duckduckgo.com"
 export WWW_HOME
 eval "$(thefuck --alias fuck)"
+alias whatcows="dir ~/mycows/share/cows"
+function giveacow(){ fortune | ~/mycows/bin/cowsay -f ~/mycows/share/cows/$1.cow; }
+function giveacowtouser(){ fortune | ~/mycows/bin/cowsay -f ~/mycows/share/cows/$1.cow $4 | write $2 pts/$3; }
+function giveacowtotty(){ fortune | ~/mycows/bin/cowsay -f ~/mycows/share/cows/$1.cow $4 | write $2 tty$3; }
+function gimme(){ ssh $1;}
+function whereis(){ who | grep $1; }
