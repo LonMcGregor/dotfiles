@@ -1,9 +1,0 @@
-#!/bin/bash
-echo "";
-echo -e "${Red}██${Purple}╗..${Red}██${Purple}╗${Red}██${Purple}╗.......${Red}██${Purple}╗.....${Red}███${Purple}╗...${Red}███${Purple}╗${Red}██████${Purple}╗.${Red}███████${Purple}╗.${Red}██████${Purple}╗.";
-echo -e "${Red}██${Purple}║..${Red}██${Purple}║${Red}██${Purple}║.......${Red}██${Purple}║.....${Red}████${Purple}╗.${Red}████${Purple}║╚════${Red}██${Purple}╗${Red}██${Purple}╔════╝${Red}██${Purple}╔════╝.";
-echo -e "${Red}███████${Purple}║${Red}██${Purple}║.......${Red}██${Purple}║.....${Red}██${Purple}╔${Red}████${Purple}╔${Red}██${Purple}║.${Red}█████${Purple}╔╝${Red}███████${Purple}╗${Red}███████${Purple}╗.";
-echo -e "${Red}██${Purple}╔══${Red}██${Purple}║${Red}██${Purple}║.......${Red}██${Purple}║.....${Red}██${Purple}║╚${Red}██${Purple}╔╝${Red}██${Purple}║.╚═══${Red}██${Purple}╗╚════${Red}██${Purple}║${Red}██${Purple}╔═══${Red}██${Purple}╗";
-echo -e "${Red}██${Purple}║..${Red}██${Purple}║${Red}██${Purple}║${Red}▄█${Purple}╗....${Red}███████${Purple}╗${Red}██${Purple}║.╚═╝.${Red}██${Purple}║${Red}██████${Purple}╔╝${Red}███████${Purple}║╚${Red}██████${Purple}╔╝";
-echo -e "${Purple}╚═╝..╚═╝╚═╝╚═╝....╚══════╝╚═╝.....╚═╝╚═════╝.╚══════╝.╚═════╝.";
-echo -e "${NC}";

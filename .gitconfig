@@ -1,7 +1,0 @@
-[credential]
-	helper = cache --timeout=3600
-[user]
-	email = lemcgregor3@outlook.com
-	name = LonMcGregor
-[push]
-	default = simple
