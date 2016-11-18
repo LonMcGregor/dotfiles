@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#home dotfiles
+files="bash_logout bashrc fehbg gitconfig inputrc lynxrc profile"
+#home/config files
+config_files="gtk-2.0 gtk3.0 htop i3 mc user-dirs.dirs user-dirs.locale"
+
+#backup dirs
+current=${PWD}
+
+# create dirs for backup
+rm -r old
+rm -r cold
+mkdir -p old
+mkdir -p cold
+
+# backup exisitng dotfiles, then create symlinks 
+for file in $files; do
+    mv ~/.$file old 2>/dev/null
+    ln -s $current/$file ~/.$file
+done
+
+#and for home/config
+for file in $config_files; do
+    mv ~/.config/$file cold 2>/dev/null
+    ln -s $current/$file ~/.config/$file
+done
