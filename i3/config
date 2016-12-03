@@ -141,22 +141,40 @@ mode "resize" {
 
 bindsym Mod4+d mode "resize"
 
+#human
+#set $bg #2d2d2d
+#set $mutebg #444444
+#set $mutetext #b3b9ce
+#set $maintext #ffffff
+#set $focus #d64937
+#set $attention #d63774
+#set $indicate #e2c963
+
+#mint
+set $bg #2d2d2d
+set $mutebg #444444
+set $mutetext #b3cebc
+set $maintext #ffffff
+set $focus #53bc76
+set $attention #64e5c9
+set $indicate #cde564
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
         position top
-        status_command i3status --config ~/.i3/i3status.conf
+        status_command i3status --config ~/.config/i3/i3status.conf
         tray_output primary
         font pango:DejaVu Sans Mono 8
         colors {
-			background #2d2d2d
-			statusline #b3b9ce
-			separator #d64937
+			background $bg
+			statusline $mutetext
+			separator $focus
 
-			focused_workspace  #d64937 #d64937 #ffffff
-			active_workspace   #2d2d2d #2d2d2d #b3b9ce
-			inactive_workspace #2d2d2d #2d2d2d #b3b9ce
-			urgent_workspace   #d63774 #d63774 #ffffff
+			focused_workspace  $focus $focus $maintext
+			active_workspace   $bg $bg $mutetext
+			inactive_workspace $bg $bg $mutetext
+			urgent_workspace   $attention $attention $maintext
         }
 }
 
@@ -164,13 +182,13 @@ bar {
 # colours 
 #########################################################
 # class                 border  backgr. text    indicator
-client.focused          #d64937 #d64937 #ffffff #e2c963
-client.focused_inactive #2d2d2d #2d2d2d #ffffff #444444
-client.unfocused        #2d2d2d #2d2d2d #888888 #444444
-client.urgent           #d63774 #d63774 #ffffff #d637c3
-client.placeholder      #000000 #0c0c0c #ffffff #111111
+client.focused          $focus $focus $maintext $indicate
+client.focused_inactive $bg $bg $maintext $mutebg
+client.unfocused        $bg $bg $mutetext $mutebg
+client.urgent           $attention $attention $maintext $indicate
+client.placeholder      $bg $bg $maintext $mutebg
 
-client.background       #81889b
+client.background       $bg
 
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
