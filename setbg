@@ -1,0 +1,6 @@
+#!/bin/bash
+bgs=($(ls /usr/share/backgrounds/linuxmint-sarah))
+rand=$$$(date +%s)
+chosen=$(($rand % ${#bgs[*]}))
+img=${bgs[$chosen]}
+feh --bg-fill '/usr/share/backgrounds/linuxmint-sarah/'$img
