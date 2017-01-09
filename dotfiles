@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #home dotfiles
-files="bash_logout bashrc gitconfig inputrc lynxrc profile setbg"
+files="bash_logout bashrc gitconfig i3 inputrc lynxrc profile setbg"
 #home/config files
-config_files="gtk-2.0 gtk3.0 htop i3 mc user-dirs.dirs user-dirs.locale"
+config_files="gtk-2.0 gtk-3.0 htop mc user-dirs.dirs user-dirs.locale"
 
 #backup dirs
 current=${PWD}
@@ -23,5 +23,5 @@ done
 #and for home/config
 for file in $config_files; do
     mv ~/.config/$file cold 2>/dev/null
-    ln -s $current/$file ~/.config/$file
+    ln -s $current/config/$file ~/.config/$file
 done
