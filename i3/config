@@ -200,7 +200,7 @@ client.background       $bg
 # Please remove the following exec line:
 #######################################################################
 #exec i3-config-wizard
-exec ~/.fehbg
+exec ~/dotfiles/setbg
 
 for_window [class="^.*"] border pixel 5
 
