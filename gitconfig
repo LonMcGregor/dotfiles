@@ -1,5 +1,5 @@
 [credential]
-	helper = cache --timeout=3600
+	helper = store
 [user]
 	email = lemcgregor3@outlook.com
 	name = LonMcGregor
