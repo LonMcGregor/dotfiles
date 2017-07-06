@@ -163,7 +163,7 @@ set $indicate #cde564
 # finds out, if available)
 bar {
         position top
-        status_command i3status --config ~/.config/i3/i3status.conf
+        status_command i3status --config ~/.i3/i3status.conf
         tray_output primary
         font pango:DejaVu Sans Mono 8
         colors {

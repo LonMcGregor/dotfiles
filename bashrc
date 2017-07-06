@@ -145,4 +145,3 @@ alias i3term='i3-sensible-terminal'
 WWW_HOME="http://duckduckgo.com"
 export WWW_HOME
 
-eval "$(thefuck --alias fuck)"
