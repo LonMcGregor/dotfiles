@@ -2,6 +2,7 @@
 
 zstyle ':completion:*' matcher-list '' 'm:{[:lower:]}={[:upper:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
 zstyle :compinstall filename '/home/lonm/.zshrc'
+zstyle ':completion:*' menu select
 
 autoload -Uz compinit
 compinit
